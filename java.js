@@ -149,7 +149,7 @@ function BtnRandomColor() {
 
 
     }
-
+            //göra funktion istället för flera if satser  resulterar i smidigare kod// 
 function convertToHex(value) {
         
         if (value == 10){
@@ -170,3 +170,8 @@ function convertToHex(value) {
 
 
     }
+
+
+console.log(areaRectangel(5.5,3,3));
+console.log(calculateTriangel(5.5, 3.3));
+console.log(calculateCircel(5));
